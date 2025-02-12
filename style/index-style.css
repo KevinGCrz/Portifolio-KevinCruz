@@ -1,4 +1,111 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
+    font-family: "Kanit";
 }
+
+nav{
+    position: absolute;
+}
+
+.view-100{
+    height: 100vh;
+}
+/*-------------------------------------------------------------*/
+
+.home{
+    background-color: #003a34;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+/*-------------------------------------------------------------*/
+
+.sobre-mim{
+    background-color: #256c64;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-sobre{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 3%;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-me img{
+    width: 70%;
+    border-radius: 100%;
+}
+
+.text-sobre{
+    font-size: 30px;
+}
+
+.tecnologias{
+    margin: 0px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tecnologias img{
+    width: 40%;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------------------------*/
+
+.projetos{
+    background-color: #195b54;
+}
+
+/*-------------------------------------------------------------*/
+
+.contato{
+    background-color: #0c4b44;
+}
+
+/*-------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+003a34
+256c64
+195b54
+0c4b44
+
+*/
