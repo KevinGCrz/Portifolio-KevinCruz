@@ -1,0 +1,19 @@
+const garagemBtn = document.querySelector(".garagem-btn");
+const salaBtn = document.querySelector(".sala-btn");
+const cozinhaBtn = document.querySelector(".cozinha-btn");
+const quarto1Btn = document.querySelector(".quarto1-btn");
+const quarto2Btn = document.querySelector(".quarto2-btn");
+const corredorBtn = document.querySelector(".corredor-btn");
+const banheiroBtn = document.querySelector(".banheiro-btn");
+const lavanderiaBtn = document.querySelector(".lavanderia-btn");
+const todosBtn = document.querySelector(".todos-btn");
+
+garagemBtn.addEventListener("click", ()=> LightController.instance.toggleGaragem());
+salaBtn.addEventListener("click", ()=> LightController.instance.toggleSala());
+cozinhaBtn.addEventListener("click", ()=> LightController.instance.toggleCozinha());
+quarto1Btn.addEventListener("click", ()=> LightController.instance.toggleQuarto1());
+quarto2Btn.addEventListener("click", ()=> LightController.instance.toggleQuarto2());
+corredorBtn.addEventListener("click", ()=> LightController.instance.toggleCorredor());
+banheiroBtn.addEventListener("click", ()=> LightController.instance.toggleBanheiro());
+lavanderiaBtn.addEventListener("click", ()=> LightController.instance.toggleLavanderia());
+todosBtn.addEventListener("click", ()=> LightController.instance.toggleAll());
